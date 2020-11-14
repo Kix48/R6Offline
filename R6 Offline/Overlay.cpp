@@ -3,9 +3,6 @@
 
 WPARAM OverlayThread()
 {
-	static bool pauseMusic = false;
-	static bool pauseOnce = true;
-	static bool resumeOnce = false;
 	MSG message = { 0 };
 	RECT rect;
 	ZeroMemory(&rect, sizeof(RECT));
