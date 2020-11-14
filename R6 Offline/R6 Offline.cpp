@@ -39,7 +39,7 @@ void FeaturesThread()
     {
         if (Game.GetGameState() == 2 || Game.GetGameState() == 3)
         {
-            SpoofSpectate(Config::SpoofSpectate); //Utd; Set to true if you want
+            SpoofSpectate(Config::SpoofSpectate); //Utd;
             RunAndGun(Config::RunAndGun); //Utd
             Speed(Config::Speed, Config::SpeedVal); //Utd
             FarKnife(Config::FarKnife); //Utd
